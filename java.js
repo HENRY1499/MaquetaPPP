@@ -1,3 +1,7 @@
+let burger = document.querySelector('.fa-bars');
 let menu = document.querySelector('.menu-left');
-console.log(menu.clientWidth)
-console.log(menu.clientHeight)
+
+burger.addEventListener('click', () => {
+    menu.classList.toggle("active");
+}, false)
+
