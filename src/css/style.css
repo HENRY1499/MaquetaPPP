@@ -68,10 +68,10 @@
     padding: 50px 0;
     top: 5px;
     /* border: 1px solid black; */
-
 }
 
-.registro #img {
+.registro #img,
+.login #img {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -88,7 +88,8 @@
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.registro #form>h1 {
+.registro #form>h1,
+.login #form_login>h1 {
     font-family: monospace;
     text-align: center;
     margin-bottom: 0 !important;
@@ -122,19 +123,29 @@ input[type="password"] {
     text-align: center;
 }
 
-.ingresa>i {
+.ingresa>a {
     color: blue;
+    text-decoration: none;
 }
 
 button[type=submit] {
     margin: 21px 0;
 }
 
-.ingresa>i:hover {
+.ingresa>a:hover {
     cursor: pointer;
 }
 
-
-
-
 /*FIN ESTILOS DE REGISTRO*/
+
+/* LOGIN ESTILOS */
+.login {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    top: 250px;
+    /* border: 1px solid black; */
+}
+
+/* LOGIN ESTILOS */
